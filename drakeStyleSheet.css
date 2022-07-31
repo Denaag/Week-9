@@ -1,0 +1,64 @@
+/* .card-container {
+    max-width: 20rem;
+} */
+
+/* drake image on home page */
+.bg-image-drake {
+    background-image: url("drakeNWTS2.jpg");
+    background-size: cover;
+}
+.drake-height {
+    height: 450px;
+}
+
+/* Artists Image */
+.bg-image-artists {
+    background-image: url("OVOYMCM.jpg");
+    background-size: cover;
+}
+
+/* Degrassi Image */
+.drake-degrassi {
+    background-image: url("degrassi3.jpg");
+    background-size: cover;
+}
+
+/* drake image on other pages */
+.drake-height2 {
+    height: 350px;
+} 
+
+.drake-height3 {
+    height: 450px;
+}
+
+
+/* flip cards */
+.card-container {
+    position: relative;
+    max-width: 20rem;
+    perspective: 200rem;
+    height: 200px;
+}
+.card-container:hover .card-front {
+    transform: rotateY(180deg)
+}
+.card-container:hover .card-back {
+    transform: rotateY(0deg)
+}
+.card-back {
+    transform: rotateY(180deg);
+}
+.card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.9s;
+    backface-visibility: hidden;
+}
+
+
+.h2-alignment {
+    padding: 30px;
+    text-align: center;
+}
